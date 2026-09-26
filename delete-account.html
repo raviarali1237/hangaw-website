@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Delete your Hangaw account</title>
+<meta name="description" content="How to delete your Hangaw account and what happens to your data.">
+<link rel="icon" href="logo.png" type="image/png">
+<link rel="apple-touch-icon" href="logo.png">
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f7f8f7;
+    --border: #e3e6e3;
+    --text: #14181a;
+    --muted: #5b6560;
+    --accent: #1f9d55;
+    --danger: #c0392b;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1211;
+      --surface: #171b19;
+      --border: #262b28;
+      --text: #eef1ef;
+      --muted: #9aa5a0;
+      --accent: #3ecf8e;
+      --danger: #ef6b5c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px 72px; }
+  header { border-bottom: 1px solid var(--border); padding-bottom: 24px; margin-bottom: 32px; }
+  .brand { display: flex; align-items: center; gap: 11px; font-weight: 800; letter-spacing: -0.01em; font-size: 20px; }
+  /* The app icon itself, at the corner radius Android and iOS round it to. The artwork
+     carries its own near-black ground, so it needs a hairline in dark mode to keep an
+     edge against the page rather than bleeding into it. */
+  .brand img { width: 34px; height: 34px; border-radius: 9px; flex: none; display: block; border: 1px solid var(--border); }
+  h1 { font-size: 30px; line-height: 1.25; letter-spacing: -0.02em; margin: 20px 0 8px; }
+  h2 { font-size: 19px; letter-spacing: -0.01em; margin: 36px 0 10px; }
+  p { margin: 0 0 14px; }
+  .lede { color: var(--muted); font-size: 17px; margin-bottom: 0; }
+  ol, ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin: 0 0 8px; }
+  .card { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; padding: 18px 20px; margin: 0 0 18px; }
+  .card h2 { margin-top: 0; }
+  .danger { border-color: color-mix(in srgb, var(--danger) 35%, var(--border)); }
+  .danger h2 { color: var(--danger); }
+  a { color: var(--accent); }
+  code { background: var(--surface); border: 1px solid var(--border); border-radius: 5px; padding: 1px 6px; font-size: 14px; }
+  footer { margin-top: 44px; padding-top: 20px; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+  .note { color: var(--muted); font-size: 14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand"><img src="logo.png" alt="Hangaw"> Hangaw</div>
+    <h1>Delete your Hangaw account</h1>
+    <p class="lede">This page explains how to delete your Hangaw account, what is removed, and what is kept.</p>
+  </header>
+
+  <p>Hangaw is a calorie and nutrition tracking app published by <strong>Raviar Ali</strong>
+     (package <code>com.hangaw.mobile</code>). You can delete your account and all of the data
+     attached to it at any time, from inside the app or by writing to us.</p>
+
+  <h2>Option 1 — delete it in the app</h2>
+  <ol>
+    <li>Open Hangaw and go to the <strong>Profile</strong> tab.</li>
+    <li>Under <strong>Account</strong>, tap <strong>Account details</strong>.</li>
+    <li>Scroll to the bottom and tap <strong>Delete account</strong>.</li>
+    <li>Choose the reason you are leaving, then tick <strong>I understand this cannot be undone</strong>.</li>
+    <li>Tap <strong>Permanently delete my account</strong> and confirm.</li>
+  </ol>
+  <p class="note">Deletion runs immediately. You are signed out as soon as it finishes, and there
+     is no waiting period or grace period during which the account could be recovered.</p>
+
+  <h2>Option 2 — ask us to delete it</h2>
+  <p>If you have uninstalled the app or cannot sign in, email
+     <a href="mailto:hangaw.support@gmail.com">hangaw.support@gmail.com</a>
+     from the address you signed up with, with the subject <strong>Delete my account</strong>.
+     We will confirm and delete the account within <strong>30 days</strong>.</p>
+
+  <div class="card danger">
+    <h2>What is deleted</h2>
+    <p>Everything below is permanently erased. None of it can be restored afterwards, by you or by us.</p>
+    <ul>
+      <li>Your profile: name, email address, age, height, weight, and your calorie and nutrition targets</li>
+      <li>Every meal you have logged, and every food you created yourself</li>
+      <li>Your saved and favourite foods</li>
+      <li>Your weight entries and water intake</li>
+      <li>Your daily history, streaks and app visit record</li>
+      <li>Your scan usage counters</li>
+      <li>Your subscription record, and any food problem reports you sent us</li>
+      <li>Your sign-in account itself</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>What is kept, and for how long</h2>
+    <p>Two things are kept, and neither can be traced back to you:</p>
+    <ul>
+      <li><strong>Premium payments made on our website</strong>, if you made any — only the plan, the
+          amount, the payment method and the transfer reference. Your name, phone number, receipt
+          image and account are removed from it. The record stays so that the same bank transfer
+          cannot be claimed twice, and it is kept for as long as we need to keep payment records.</li>
+      <li><strong>The reason you gave for leaving</strong>, if you chose one — together with the
+          language you used the app in, your platform, the app version, and how many whole days
+          the account existed. This record contains <strong>no name, no email address, no user ID,
+          and nothing else that identifies you</strong>, so it cannot be linked back to you or to
+          your deleted account. It is kept indefinitely and used only to count why people leave.
+          Choosing a reason is not required in order to delete your account.</li>
+    </ul>
+    <p class="note">Nothing else is retained. We do not keep a shadow copy, a suspended account,
+       or a backup of your personal data for later use.</p>
+  </div>
+
+  <div class="card">
+    <h2>Photos never leave your phone</h2>
+    <p>Your profile picture and your scan history are stored on your device only. They are
+       never uploaded to us, so there is nothing of theirs to delete on our side — removing
+       the app removes them with it.</p>
+    <p>When you scan a meal or a nutrition label, the photo is sent to OpenAI to be read and
+       turned into nutrition figures. Hangaw does not store that photo, and it is not kept
+       against your account.</p>
+  </div>
+
+  <h2>Questions</h2>
+  <p>Email <a href="mailto:hangaw.support@gmail.com">hangaw.support@gmail.com</a>
+     or message <a href="https://www.instagram.com/hangaw.app">@hangaw.app</a> on Instagram.</p>
+
+  <footer>
+    Hangaw — <span id="updated">last updated 26 September 2026</span>
+  </footer>
+
+</div>
+</body>
+</html>
